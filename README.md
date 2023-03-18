@@ -3,10 +3,19 @@
 ---
  > ## Stages:
 - [x] 1. UI/UX Desing 
-- [x] 2. Design Revision
+- [x] 2. Design **Revision**
 - [ ] 3. Initial Sructure
 - [ ] 4. Web Design
-- [ ] 5. Web Design Revision
+- [ ] 5. Web Design **Revision**
 - [ ] 6. Responsive
-- [ ] 7. Responsive Revision
-- [ ]  8. Final Revision
+- [ ] 7. Responsive **Revision**
+- [ ]  8. Final **Revision**
+
+*** 
+<!-- visitor counter -->
+<table aligh="center">
+  <tr>
+    <td>Profile Visits</td>
+    <td><img src="https://profile-counter.glitch.me/xsomoy/count.svg" alt="xSomoy" /></td>
+  </tr>
+</table>
