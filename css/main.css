@@ -37,7 +37,7 @@ span {
 /***********************   Common CSS END   ************************/
 
 #banner {
-    background-image: url(../images/bannel.jpg);
+    background-image: url(/images/bannel.jpg);
     width: 100%;
     background-position: center;
     height: 400px;
