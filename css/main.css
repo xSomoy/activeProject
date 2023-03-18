@@ -1,3 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+a,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+/***********************   Common CSS END   ************************/
+
 #banner {
     background-image: url(../images/bannel.jpg);
+    width: 100%;
+    background-position: center;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
