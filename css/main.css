@@ -37,10 +37,15 @@ span {
 /***********************   Common CSS END   ************************/
 
 #banner {
-    background-image: url(/images/bannel.jpg);
+    background: rgb(163, 101, 223);
+    background: linear-gradient(45deg, rgba(163, 101, 223, 1) 33%, rgba(129, 0, 255, 1) 100%);
     width: 100%;
-    background-position: center;
-    height: 400px;
-    background-repeat: no-repeat;
-    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+#banner img {
+    position: absolute;
+    right: 25px;
+    top: 25px;
 }
