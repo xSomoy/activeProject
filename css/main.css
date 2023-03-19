@@ -51,12 +51,25 @@ span {
 }
 
 .bannderBody {
+    display: flex;
     position: absolute;
     top: 50px;
     left: 50px;
-    width: 90%;
+    width: 1200px;
     height: 600px;
     border-top-right-radius: 40%;
     background-color: white;
     border: 2px solid #b1536d;
+}
+.bannerText {
+   width: 600px;
+   background-color: aqua;
+   height: 100%;
+}
+
+.bannerImg {
+    background-image: url(../images/banner.jpg);
+    z-index: 99;
+    background-position: center;
+    background-size: cover;
 }
