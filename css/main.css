@@ -49,3 +49,14 @@ span {
     right: 25px;
     top: 25px;
 }
+
+.bannderBody {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 90%;
+    height: 600px;
+    border-top-right-radius: 40%;
+    background-color: white;
+    border: 2px solid #b1536d;
+}
