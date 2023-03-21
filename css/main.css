@@ -150,9 +150,10 @@ span {
 /* E-Banner Part  */
 
 /* S-What Doing  */
+
 #whatDoing {
-    padding-bottom: 100px;
-    background-color: #969595;
+    padding-bottom: 150px;
+    /* background-color: #969595; */
 }
 
 .whatDoingImg {
@@ -162,7 +163,7 @@ span {
 
 .whatDoingImg .wd1 {
     width: 280px;
-    height: 280px;
+    height: 300px;
     position: absolute;
     right: 100px;
     top: 150px;
@@ -171,7 +172,7 @@ span {
 
 .whatDoingImg .wd2 {
     width: 380px;
-    height: 380px;
+    height: 400px;
     position: absolute;
     right: 120px;
     top: 80px;
@@ -179,6 +180,7 @@ span {
 
 .whatDoingText {
     margin-top: 100px;
+    position: relative;
 }
 
 .whatDoingText .title {
@@ -200,3 +202,21 @@ span {
     padding: 20px 0 0 50px;
     width: 450px;
 }
+
+.whatDoingText .text span {
+    color: var(--blue);
+    font-weight: 700;
+    padding: 4px;
+    font-style: oblique;
+}
+
+.whatDoingText .destinyLogo {
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    bottom: -150px;
+    left: 25px;
+    transform: rotate(-15deg);
+}
+
+/* E-What Doing  */
