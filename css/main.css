@@ -45,8 +45,10 @@ span {
     --blue: #2b4191;
     --dark-blue: #211b41;
     --gray: #6c6c6c;
+    --black: #0b0b0b;
     --font1: 'Lato', sans-serif;
     --font2: 'Montserrat', sans-serif;
+    --font3: 'Roboto', sans-serif;
 }
 
 /* E-Variables  */
@@ -149,8 +151,8 @@ span {
 
 /* S-What Doing  */
 #whatDoing {
-    margin: 0 100px 0 50px;
     padding-bottom: 100px;
+    background-color: #969595;
 }
 
 .whatDoingImg {
@@ -162,15 +164,16 @@ span {
     width: 280px;
     height: 280px;
     position: absolute;
-    right: 0;
+    right: 100px;
     top: 150px;
+    z-index: 99;
 }
 
 .whatDoingImg .wd2 {
     width: 380px;
     height: 380px;
     position: absolute;
-    right: 20px;
+    right: 120px;
     top: 80px;
 }
 
@@ -180,8 +183,20 @@ span {
 
 .whatDoingText .title {
     font-family: var(--font1);
-    font-size: 60px;
-    font-weight: 900;
+    font-size: 50px;
+    font-weight: 700;
     line-height: 70px;
+    font-style: oblique;
     text-align: center;
+    width: 450px;
+}
+
+.whatDoingText .text {
+    font-family: var(--font1);
+    color: var(--gray);
+    line-height: 35px;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 20px 0 0 50px;
+    width: 450px;
 }
