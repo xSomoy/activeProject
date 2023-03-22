@@ -14,18 +14,22 @@
   - [ ] Contact and List
   - [ ] Wall of Comments
 - [ ] 4. Web Design
-  - [ ] Banner 
-  - [ ] What we doing
+  - [x] Banner 
+  - [x] What we doing
   - [ ] Activites
   - [ ] Meal Spa
   - [ ] Other Activites
   - [ ] Map
   - [ ] Contact and List
   - [ ] Wall of Comments
-- [ ] 5. Web Design **Revision**
-- [ ] 6. Responsive
-- [ ] 7. Responsive **Revision**
-- [ ]  8. Final **Revision**
+- [ ] 5. CoutDown Widget
+  - [ ] Development
+  - [ ] Structure
+  - [ ] Design
+- [ ] 6. Web Design **Revision**
+- [ ] 7. Responsive
+- [ ] 8. Responsive **Revision**
+- [ ] 9. Final **Revision**
 
 *** 
 <!-- visitor counter -->
