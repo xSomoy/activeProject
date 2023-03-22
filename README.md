@@ -5,27 +5,27 @@
 - [x] 1. UI/UX Desing 
 - [x] 2. Design **Revision**
 - [ ] 3. Initial Sructure
-  - [x] Banner 
-  - [x] What we doing
-  - [ ] Activites
-  - [ ] Meal Spa
-  - [ ] Other Activites
-  - [ ] Map
-  - [ ] Contact and List
-  - [ ] Wall of Comments
+  - [x] 3.1 Banner 
+  - [x] 3.2 What we doing
+  - [ ] 3.3 Activites
+  - [ ] 3.4 Meal Spa
+  - [ ] 3.5 Other Activites
+  - [ ] 3.6 Map
+  - [ ] 3.7 Contact and List
+  - [ ] 3.8 Wall of Comments
 - [ ] 4. Web Design
-  - [x] Banner 
-  - [x] What we doing
-  - [ ] Activites
-  - [ ] Meal Spa
-  - [ ] Other Activites
-  - [ ] Map
-  - [ ] Contact and List
-  - [ ] Wall of Comments
+  - [x] 4.1 Banner 
+  - [x] 4.2 What we doing
+  - [ ] 4.3 Activites
+  - [ ] 4.4 Meal Spa
+  - [ ] 4.5 Other Activites
+  - [ ] 4.6 Map
+  - [ ] 4.7 Contact and List
+  - [ ] 4.8 Wall of Comments
 - [ ] 5. CoutDown Widget
-  - [ ] Development
-  - [ ] Structure
-  - [ ] Design
+  - [ ] 5.1 Development
+  - [ ] 5.2 Structure
+  - [ ] 5.3 Design
 - [ ] 6. Web Design **Revision**
 - [ ] 7. Responsive
 - [ ] 8. Responsive **Revision**
