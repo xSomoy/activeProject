@@ -1,4 +1,5 @@
 // Create Countdown
+
 var Countdown = {
   // Backbone-like structure
   $el: $(".countdown"),

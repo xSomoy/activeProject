@@ -12,13 +12,15 @@
 
 <body>
     <div class="wrap">
-        <h1>Draft <strong>Countdown</strong></h1>
+    
 
         <div class="countdown">
-            <div class="bloc-time hours" data-init-value="24">
-                <span class="count-title">Hours</span>
 
-                <div class="figure hours hours-1">
+            <div class="bloc-time days" data-init-value="24">
+                <span class="count-title">Days</span>
+
+<!-- Days Part  -->
+                <div class="figure days days-1">
                     <span class="top">2</span>
                     <span class="top-back">
                         <span>2</span>
@@ -29,7 +31,35 @@
                     </span>
                 </div>
 
-                <div class="figure hours hours-2">
+                <div class="figure days days-2">
+                    <span class="top">4</span>
+                    <span class="top-back">
+                        <span>4</span>
+                    </span>
+                    <span class="bottom">4</span>
+                    <span class="bottom-back">
+                        <span>4</span>
+                    </span>
+                </div>
+            </div>
+<!-- Days Part End -->
+
+
+            <div class="bloc-time hours" data-init-value="24">
+                <span class="count-title">Hours</span>
+
+                <div class="figure hours days-1">
+                    <span class="top">2</span>
+                    <span class="top-back">
+                        <span>2</span>
+                    </span>
+                    <span class="bottom">2</span>
+                    <span class="bottom-back">
+                        <span>2</span>
+                    </span>
+                </div>
+
+                <div class="figure days hours-2">
                     <span class="top">4</span>
                     <span class="top-back">
                         <span>4</span>
@@ -96,7 +126,7 @@
     </div>
 
 
-    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
     <script language="JavaScript" type="text/javascript" src="timer.js"></script>
     
