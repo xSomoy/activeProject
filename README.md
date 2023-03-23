@@ -22,10 +22,10 @@
   - [ ] 4.6 Map
   - [ ] 4.7 Contact and List
   - [ ] 4.8 Wall of Comments
-- [ ] 5. CoutDown Widget
-  - [ ] 5.1 Development
-  - [ ] 5.2 Structure
-  - [ ] 5.3 Design
+- [x] 5. CoutDown Widget
+  - [x] 5.1 Development
+  - [x] 5.2 Structure
+  - [x] 5.3 Design
 - [ ] 6. Web Design **Revision**
 - [ ] 7. Responsive
 - [ ] 8. Responsive **Revision**
