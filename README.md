@@ -10,7 +10,7 @@
   - [ ] 3.3 Activites
   - [ ] 3.4 Meal Spa
   - [ ] 3.5 Other Activites
-  - [ ] 3.6 Map
+  - [x] 3.6 Map
   - [ ] 3.7 Contact and List
   - [ ] 3.8 Wall of Comments
 - [ ] 4. Web Design
