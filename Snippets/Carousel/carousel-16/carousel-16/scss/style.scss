@@ -1,0 +1,92 @@
+
+
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+
+$font-family-sans-serif-2: 'Poppins', sans-serif;
+$font-family-serif: 'Source Serif Pro', serif;
+
+
+
+body {
+	font-family: $font-family-sans-serif;
+	line-height: 1.7;
+}
+p {
+	color: darken(#ccc, 20%);
+	font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: $font-family-sans-serif;
+}
+a {
+	transition: .3s all ease;
+	&, &:hover {
+		text-decoration: none!important;
+	}
+}
+.content {
+	padding: 7rem 0;
+}
+h2 {
+	font-size: 20px;
+}
+
+
+
+
+
+.media-29101 {
+  text-align: center;
+
+  img {
+    margin-bottom: 20px;
+    border-radius: 50%;
+    width: 80px!important;
+    margin: 0 auto 40px auto;
+  }
+  h3 {
+    font-size: 18px;
+    font-weight: 900!important;
+    margin-bottom: 30px;
+    a {
+      color: $secondary;
+    }
+  }
+
+}
+
+.owl-2-style {
+  .owl-nav {
+    display: none;
+  }
+  .owl-dots {
+    text-align: center;
+    position: relative;
+    bottom: -30px;
+    .owl-dot {
+      display: inline-block;
+      span {
+        display: inline-block;
+        width: 7px;
+        height: 7px;
+        border-radius: 0px;
+        background: lighten($black, 80%);
+        transition: .3s all cubic-bezier(.32, .71, .53, .53);
+        margin: 3px;
+        border-radius: 50%;
+      }
+      &.active {
+        span {
+          background: $primary;
+        }
+      }
+
+      &:active, &:focus {
+				outline: none;
+			}
+    }
+  }
+}

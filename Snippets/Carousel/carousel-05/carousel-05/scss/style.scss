@@ -1,0 +1,169 @@
+@import 'bootstrap/bootstrap';
+@import 'bootstrap/variables';
+@import 'bootstrap/mixins';
+
+$font-primary: 'Poppins',Arial, sans-serif;
+$font-secondary: 'Playfair Display', serif;
+
+$primary: #83b582;
+
+body{
+	font-family: $font-primary;
+	font-size: 16px;
+	line-height: 1.8;
+	font-weight: normal;
+	background: $primary;
+	color: lighten($black,60%);
+}
+a {
+	transition: .3s all ease;
+	color: $primary;
+	&:hover, &:focus {
+		text-decoration: none !important;
+		outline: none !important;
+		box-shadow: none;
+	}
+}
+button {
+	transition: .3s all ease;
+	&:hover, &:focus {
+		text-decoration: none !important;
+		outline: none !important;
+		box-shadow: none !important;
+	}
+}
+h1, h2, h3, h4, h5,
+.h1, .h2, .h3, .h4, .h5 {
+	line-height: 1.5;
+	font-weight: 400;
+	font-family: $font-primary;
+}
+
+
+.ftco-section{
+	padding: 7em 0;
+}
+
+.ftco-no-pt{
+	padding-top: 0;
+}
+.ftco-no-pb{
+	padding-bottom: 0;
+}
+//HEADING SECTION
+.heading-section{
+	font-size: 28px;
+	color: $white;
+}
+
+//COVER BG
+.img,
+.user-img{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+//OWL CAROUSEL
+.owl-carousel {
+	position: relative;
+	.owl-stage-outer{
+		padding-top: 1.5em;
+		position: relative;
+	}
+	.owl-item {
+		opacity: 1;
+		&.active {
+			opacity: 1;
+		}
+	}
+	
+	.owl-nav {
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		.owl-prev,
+		.owl-next {
+			position: absolute;
+			transform: translateY(-50%);
+			margin-top: -10px;
+			color: rgba(0,0,0,.2) !important;
+			@include transition(.7s);
+			span {
+				&:before {
+					font-size: 16px;
+					@include transition(.3s);
+				}
+			}
+			opacity: 1;
+			&:hover{
+				span{
+					&:before{
+						color: $primary;
+					}
+				}
+			}
+		}
+		.owl-prev {
+			right: 0;
+			margin-right: 20px;
+
+		}
+		.owl-next {
+			right: 0;
+		}
+	}
+	.owl-dots {
+		text-align: center;
+		margin-top: 10px;
+		.owl-dot {
+			width: 20px;
+			height: 3px;
+			margin: 5px;
+			background: rgba(255,255,255,.2);
+			position: relative;
+			border-radius: 1px;
+			&:hover, &:focus{
+				outline: none !important;
+			}
+			&.active {
+				background: $white;
+			}
+		}
+	}
+} 
+
+.owl-carousel.owl-drag .owl-item {
+	-ms-touch-action: pan-y;
+	touch-action: pan-y;
+}
+
+
+.testimony-wrap{
+	display: block;
+	position: relative;
+	background: rgba(255,255,255,1);
+	padding: 0 30px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 5px 21px -14px rgba(0,0,0,0.14);
+	-moz-box-shadow: 0px 5px 21px -14px rgba(0,0,0,0.14);
+	box-shadow: 0px 5px 21px -14px rgba(0,0,0,0.14);
+	.user-img{
+		width: 80px;
+		height: 80px;
+		position: relative;
+		@include border-radius(50%);
+	}
+	.name{
+		font-weight: 500;
+		font-size: 20px;
+		margin-bottom: 0;
+		color: $black;
+	}
+	.position{
+		font-size: 16px;
+		color: $primary;
+	}
+}
+
