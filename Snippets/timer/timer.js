@@ -19,10 +19,9 @@ var Countdown = {
 
     // Init countdown values
     this.values = {
-      days: 25,
-      hours: new Date().getHours(),
-      minutes: new Date().getMinutes(),
-      seconds: new Date().getSeconds()
+      hours: 25,
+      minutes: new Date().getHours(),
+      seconds: new Date().getMinutes()
     };
 
     // Initialize total seconds
@@ -54,16 +53,14 @@ var Countdown = {
         }
 
         if (that.values.hours >= 0 && that.values.minutes < 0) {
-          that.values.minutes = 59;
+          that.values.minutes = 24;
           --that.values.hours;
         }
 
-        if (that.values.hours <= 0) {
-          that.values.days = days - 1;
-          --that.values.hours;
-        }
+    
+     
 
-      
+
         // Update DOM values
 
         // Hours
@@ -133,7 +130,7 @@ var Countdown = {
       if (fig_2_value !== val_1) this.animateFigure($el_2, val_1);
     }
   }
-  
+
 };
 
 // Let's go !
