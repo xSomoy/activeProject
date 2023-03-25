@@ -1,0 +1,141 @@
+body {
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+p {
+  color: #b3b3b3;
+  font-weight: 300; }
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+a {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease; }
+  a, a:hover {
+    text-decoration: none !important; }
+
+.content {
+  padding: 7rem 0; }
+
+h2 {
+  font-size: 20px; }
+
+.slider-92911 {
+  position: relative; }
+
+/* Carousel 4*/
+.testimony-29101 .image {
+  width: 40%;
+  background-size: cover;
+  background-position: center center; }
+  @media (max-width: 991.98px) {
+    .testimony-29101 .image {
+      height: 300px; } }
+
+.testimony-29101 .text {
+  width: 60%;
+  padding: 7rem 4rem;
+  background: #007bff; }
+  .testimony-29101 .text blockquote {
+    position: relative;
+    padding-bottom: 50px;
+    font-size: 20px; }
+    .testimony-29101 .text blockquote p {
+      color: #fff;
+      line-height: 1.8; }
+    .testimony-29101 .text blockquote .author {
+      font-size: 16px;
+      letter-spacing: .1rem;
+      position: absolute;
+      bottom: 0;
+      color: rgba(255, 255, 255, 0.7); }
+
+@media (max-width: 991.98px) {
+  .testimony-29101 .image, .testimony-29101 .text {
+    width: 100%;
+    display: block !important; } }
+
+.slide-one-item {
+  -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.1); }
+  @media (max-width: 991.98px) {
+    .slide-one-item .owl-nav {
+      display: none; } }
+  .slide-one-item .owl-nav .owl-prev,
+  .slide-one-item .owl-nav .owl-next {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: #000; }
+    .slide-one-item .owl-nav .owl-prev span,
+    .slide-one-item .owl-nav .owl-next span {
+      font-size: 30px; }
+    .slide-one-item .owl-nav .owl-prev:hover,
+    .slide-one-item .owl-nav .owl-next:hover {
+      color: #000; }
+    .slide-one-item .owl-nav .owl-prev:active, .slide-one-item .owl-nav .owl-prev:focus,
+    .slide-one-item .owl-nav .owl-next:active,
+    .slide-one-item .owl-nav .owl-next:focus {
+      outline: none; }
+  .slide-one-item .owl-nav .owl-prev {
+    left: 20px; }
+  .slide-one-item .owl-nav .owl-next {
+    right: 20px; }
+  .slide-one-item .owl-dots {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    z-index: 2; }
+    .slide-one-item .owl-dots .owl-dot {
+      display: inline-block; }
+      .slide-one-item .owl-dots .owl-dot > span {
+        -webkit-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+        -o-transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+        transition: 0.3s all cubic-bezier(0.32, 0.71, 0.53, 0.53);
+        display: inline-block;
+        width: 15px;
+        height: 3px;
+        background: rgba(0, 123, 255, 0.4);
+        margin: 3px; }
+      .slide-one-item .owl-dots .owl-dot.active > span {
+        width: 15px;
+        background: #007bff; }
+
+.thumbnail {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  -webkit-transform: translateY(50%) translateX(-50%);
+  -ms-transform: translateY(50%) translateX(-50%);
+  transform: translateY(50%) translateX(-50%);
+  z-index: 99; }
+  .thumbnail li {
+    display: inline-block; }
+    .thumbnail li a {
+      display: block;
+      margin: 4px; }
+      .thumbnail li a img {
+        width: 50px;
+        border-radius: 50%;
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+        -webkit-transition: .3s all ease;
+        -o-transition: .3s all ease;
+        transition: .3s all ease;
+        -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+        box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2); }
+    .thumbnail li.active a img {
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      -webkit-box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2);
+      box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.2); }
