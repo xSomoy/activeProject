@@ -12,7 +12,7 @@
   - [x] 3.5 Other Activites
   - [x] 3.6 Map
   - [x] 3.7 Contact and List
-  - [ ] 3.8 Wall of Comments
+  - [x] 3.8 Wall of Comments
 - [ ] 4. Web Design
   - [x] 4.1 Banner 
   - [x] 4.2 What we doing
@@ -21,7 +21,7 @@
   - [ ] 4.5 Other Activites
   - [ ] 4.6 Map
   - [ ] 4.7 Contact and List
-  - [ ] 4.8 Wall of Comments
+  - [x] 4.8 Wall of Comments
 - [x] 5. CountDown Widget
   - [x] 5.1 Development
   - [x] 5.2 Structure
