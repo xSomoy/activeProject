@@ -11,7 +11,7 @@
   - [ ] 3.4 Meal Spa
   - [x] 3.5 Other Activites
   - [x] 3.6 Map
-  - [ ] 3.7 Contact and List
+  - [x] 3.7 Contact and List
   - [ ] 3.8 Wall of Comments
 - [ ] 4. Web Design
   - [x] 4.1 Banner 
