@@ -58,6 +58,11 @@ span {
       padding: 0 50px 0 50px;  
     }
 
+    section {
+        padding: 50px 0 50px 0;
+        border: #0b0b0b solid 2px;
+    }
+
 /* E-Container */
 
 
