@@ -8,6 +8,7 @@ $(function() {
         loop: true,
         stagePadding: 0,
         margin: 0,
+        
         smartSpeed: 1500,
         autoplay: false,
         dots: false,
