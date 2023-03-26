@@ -8,7 +8,7 @@
   - [x] 3.1 Banner 
   - [x] 3.2 What we doing
   - [ ] 3.3 Activites
-  - [ ] 3.4 Meal Spa
+  - [x] 3.4 Meal Spa
   - [x] 3.5 Other Activites
   - [x] 3.6 Map
   - [x] 3.7 Contact and List
