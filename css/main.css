@@ -60,7 +60,7 @@ span {
 
 section {
     padding: 50px 0 50px 0;
-    border: #0b0b0b solid 2px;
+    border: #c77c31 dotted 1px;
 }
 
 /* E-Container */
@@ -232,3 +232,7 @@ section {
 }
 
 /* E-What Doing  */
+.Actvites {
+    display: flex;
+    justify-content: left;
+}
