@@ -55,7 +55,7 @@ span {
 
 /* S-Container */
 #container {
-    padding: 0 50px 0 50px;
+    /* padding: 0 50px 0 50px; */
 }
 
 section {
@@ -232,7 +232,4 @@ section {
 }
 
 /* E-What Doing  */
-.Actvites {
-    display: flex;
-    justify-content: left;
-}
+
