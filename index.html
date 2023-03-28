@@ -107,6 +107,36 @@
             <p class="subText">
                 What all can we expect there as activities???
             </p>
+            <div class="activiesDisplay">
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Launch demo modal
+                </button>
+
+                <!-- Modal -->
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
         </Section>
         <!-- activities par start  -->
 
@@ -136,7 +166,7 @@
                         Spa
                     </p>
                     <p class="mealDescription">
-                        Yes there is a spa to relax and enjoy!   
+                        Yes there is a spa to relax and enjoy!
                     </p>
                 </div>
             </div>
@@ -178,8 +208,8 @@
                     <li><img src="./images/phone.png" alt="Phone"><a href="tel:+8801601512212"></a></li>
                     <li><img src="./images/whatsapp.png" alt="WhatsApp">+8801601512212</li>
                     <li><img src="./images/email.png" alt="Mail"><a href="mailto:exampl.com"></a></li>
-                    <li><img src="./images/instagram.png" alt="Instagram"><a href="http://instagram.com/xSomoy" target="_blank"
-                            rel="noopener noreferrer"></a></li>
+                    <li><img src="./images/instagram.png" alt="Instagram"><a href="http://instagram.com/xSomoy"
+                            target="_blank" rel="noopener noreferrer"></a></li>
                 </ul>
             </div>
             <div class="itemList">
@@ -207,6 +237,16 @@
 
     <!-- JavaScript Start  -->
     <script src="./js/timer.js"></script>
+    <!-- <script>
+        // Modal js 
+
+        const myModal = document.getElementById('myModal')
+        const myInput = document.getElementById('myInput')
+
+        myModal.addEventListener('shown.bs.modal', () => {
+            myInput.focus()
+        })
+    </script> -->
     <!-- JavaScript End  -->
 
 </body>
