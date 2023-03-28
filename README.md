@@ -12,7 +12,7 @@
   - [x] 3.5 Other Activites
   - [x] 3.6 Map
   - [x] 3.7 Contact and List
-  - [x] 3.8 Wall of Comments
+  - [ ] 3.8 Wall of Comments
 - [ ] 4. Web Design
   - [x] 4.1 Banner 
   - [x] 4.2 What we doing
