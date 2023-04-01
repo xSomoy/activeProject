@@ -15,4 +15,6 @@ function loadData(){
     // Send Request
 
     xhr.send();
-}
+};
+
+// AJAX is working
