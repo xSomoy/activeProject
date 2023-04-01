@@ -5,6 +5,7 @@ function loadData(){
     // What to do when response arraives
     xhr.onload = function (){
         const container = document.getElementById('demo');
-        demo.innerHTML
+        demo.innerHTML = xhr.responseText;
+        
     } 
 }
