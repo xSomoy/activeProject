@@ -5,15 +5,369 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ajax Text</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <!-- Bootstrap  -->
+    <link href="https://unpkg.com/@popperjs/core@2">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- Style Link -->
+    <!-- Google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <!-- Google fonts End  -->
+
+    <!-- Comments Start  -->
+
+    <!-- Comments End  -->
+
+    <!-- CSS Start  -->
+
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/timer.css">
+
+    <!-- CSS END  -->
+    <title>Welcome Summary</title>
+
 </head>
 
 <body>
-    <div id="demo">
-        <h1>Ajax Practice</h1>
-        <p><Button onclick="loadData()">Change this content</Button></p>
+    <div id="container">
+
+        <!-- CountDown Start  -->
+
+        <section id="CountDown">
+            <div id="timer"></div>
+        </section>
+
+
+        <!-- CountDown End  -->
+
+        <!-- Banner Part Stat         -->
+
+        <section id="banner">
+
+            <img src="./images/logo_1.jpg" alt="CIRS Logo">
+            <div class="bannderBody">
+                <div class="bannerText">
+                    <h5><i class="bi bi-calendar2-check"></i>16-18 APRIL, 2023</h5>
+                    <h2>Hey People!</h2>
+                    <h1>Welcome To The Batch of <span>2009</span> Reunions Page!</h1>
+                    <p class="description">
+                        Let's come together to celebrate our achievments, catch up on each other's lives, and make new
+                        connections. So mark your calendars, book your flights, and get ready for a weekend of fun and
+                        nostalgia at the Batch of 2009 Reunions in 2023. We can't wait to see you there!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Banner Part End -->
+
+        <!-- What Doing Part Start  -->
+
+        <section id="whatDoing">
+            <div class="row align-items-start">
+                <div class="col-6">
+                    <div class="col-3 whatDoingImg">
+                        <img src="./images/wd1.png" alt="" class="wd1">
+                        <img src="./images/wd2.png" alt="" class="wd2">
+                    </div>
+                </div>
+                <div class="col-6 whatDoingText">
+                    <p class="title">
+                        What we doing in 2023 ??
+                    </p>
+                    <p class="text">
+                        After meetups at colleges, cafes, bars, wedding, sundowns etc... <span>Finally</span> we are on
+                        board to go to...
+                    </p>
+                    <img src="./images/destinyLogo.png" alt="" class="destinyLogo">
+                </div>
+
+            </div>
+
+        </section>
+        <!-- What Doing Part End  -->
+
+        <!-- activities par start  -->
+
+        <Section id="Activites">
+            <h2>Activites</h2>
+            <p class="subText">
+                What all can we expect there as activities???
+            </p>
+            <div class="activiesDisplay">
+
+                <div class="modal-1">
+                    <!-- Button trigger modal -->
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img class="modalButton" src="./images/bonfire 1.png">
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./images/bonfire 1.png" alt="" srcset="">
+                                    <p class="bonfire">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta fugiat quos, ea enim harum optio magnam ullam ratione tempore facere.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-2">
+                    <!-- Button trigger modal -->
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                        <img class="modalButton" src="./images/horseRiding.png">
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModal"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./images/horseRiding.png" alt="" srcset="">
+                                    <p class="horseRiding">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta fugiat quos, ea enim harum optio magnam ullam ratione tempore facere.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-3">
+                    <!-- Button trigger modal -->
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                        <img class="modalButton" src="./images/wallClimbing.png">
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./images/wallClimbing.png" alt="" srcset="">
+                                    <p class="wallClimbing">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta fugiat quos, ea enim harum optio magnam ullam ratione tempore facere.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-4">
+                    <!-- Button trigger modal -->
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                        <img class="modalButton" src="./images/ziplining.png">
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./images/ziplining.png" alt="" srcset="">
+                                    <p class="ziplining">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta fugiat quos, ea enim harum optio magnam ullam ratione tempore facere.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-5">
+                    <!-- Button trigger modal -->
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                        <img class="modalButton" src="./images/gameRoom.png">
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./images/gameRoom.png" alt="" srcset="">
+                                    <p class="gameRoom">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta fugiat quos, ea enim harum optio magnam ullam ratione tempore facere.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-6">
+                    <!-- Button trigger modal -->
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                        <img class="modalButton" src="./images/karaoke.png">
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./images/karaoke.png" alt="" srcset="">
+                                    <p class="karaoke">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta fugiat quos, ea enim harum optio magnam ullam ratione tempore facere.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-7">
+                    <!-- Button trigger modal -->
+                    <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal7">
+                        <img class="modalButton" src="./images/Fishing.png">
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <img src="./images/Fishing.png" alt="" srcset="">
+                                    <p class="fishing">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta fugiat quos, ea enim harum optio magnam ullam ratione tempore facere.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </Section>
+        <!-- activities par start  -->
+
+        <!-- Mean and Spa section start  -->
+        <section id="mealSpa">
+            <div class="mealSection">
+                <div class="mealImg">
+                    <img src="./images/meal.png" alt="Meal">
+                </div>
+                <div class="meal">
+                    <p class="mealHeading">
+                        Meal Options
+                    </p>
+                    <p class="mealDescription">
+                        We all have signed up for
+                        breakfast and lunch
+                        (and / or) dinner.
+                    </p>
+                </div>
+            </div>
+            <div class="spaSection">
+                <div class="mealImg">
+                    <img src="./images/spa.png" alt="Meal">
+                </div>
+                <div class="meal">
+                    <p class="mealHeading">
+                        Spa
+                    </p>
+                    <p class="mealDescription">
+                        Yes there is a spa to relax and enjoy!
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Mean and Spa section End  -->
+
+        <!-- Other activities Start  -->
+
+        <section id="otherActivites">
+            <h3>Other activities planned?</h2>
+                <p class="otherActivies">
+                    <span>Oh yeah,</span><span class="sachin">Sachin Sancheti</span>
+                    is not going to remain calm.
+                    There are going to more than what has been planned here
+                </p>
+        </section>
+        <!-- Other activities End  -->
+
+
+        <!-- Map Part Start -->
+
+        <section id="map">
+            <h2>How to get there?</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3912.158085517449!2d76.59966150000001!3d11.323153499999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8999c5c8321d1%3A0x95ce9506ede0c3b3!2sDestiny%20-%20The%20Farm%20Resort!5e0!3m2!1sen!2sbd!4v1679568239047!5m2!1sen!2sbd"
+                width="90%" height="400" style="border: 0px;;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <!-- Map Part End  -->
+
+        <section id="contactList">
+            <div class="cotacts">
+                <p class="contactsLinks">
+                    Contacts And Links
+                </p>
+                <p>Have an inquiry? We’ll be happy to assist you</p>
+                <ul>
+                    <li><img src="./images/phone.png" alt="Phone"><a href="tel:+8801601512212"></a></li>
+                    <li><img src="./images/whatsapp.png" alt="WhatsApp">+8801601512212</li>
+                    <li><img src="./images/email.png" alt="Mail"><a href="mailto:exampl.com"></a></li>
+                    <li><img src="./images/instagram.png" alt="Instagram"><a href="http://instagram.com/xSomoy"
+                            target="_blank" rel="noopener noreferrer"></a></li>
+                </ul>
+            </div>
+            <div class="itemList">
+                <p class="listItemHeader">
+                    List of Items to Carry
+                    `</p>
+                <ol>
+                    <li>Item</li>
+                    <li>Item</li>
+                    <li>Item</li>
+                    <li>Item</li>
+                    <li>Item</li>
+                </ol>
+
+            </div>
+        </section>
+
+        <section id="Comments">
+            <iframe src="./commetPart/comments.html" frameborder="0" width="100%" height="500px"></iframe>
+        </section>
+
+
+
     </div>
-    <script src="./script.js"></script>
+
+    <!-- JavaScript Start  -->
+    <script src="./js/timer.js"></script>
+    <!-- <script>
+        // Modal js 
+
+        const myModal = document.getElementById('myModal')
+        const myInput = document.getElementById('myInput')
+
+        myModal.addEventListener('shown.bs.modal', () => {
+            myInput.focus()
+        })
+    </script> -->
+    <!-- JavaScript End  -->
+
 </body>
 
 </html>

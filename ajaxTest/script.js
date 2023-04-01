@@ -11,7 +11,7 @@ function loadData(){
 
     // prepare request - methods : GET , POST, PUT, PATCH, DELETE, OPTIONS 
 
-    xhr.open("GET","./ajax/data.txt" );
+    xhr.open("GET","./ajaxTest/ajaxData/data.txt" );
     // Send Request
 
     xhr.send();
