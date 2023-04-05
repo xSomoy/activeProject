@@ -1,20 +1,14 @@
-function loadData(){
-    // Create New Request 
-    const xhr = new XMLHttpRequest();
-
-    // What to do when response arraives
-    xhr.onload = function (){
-        const container = document.getElementById('demo');
-        demo.innerHTML = xhr.responseText;
-
+function loadDoc() {
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      if (this.readyState == 4 && this.status == 200) {
+        document.getElementById("cPallet").innerHTML =
+        this.responseText;
+      }
     };
-
-    // prepare request - methods : GET , POST, PUT, PATCH, DELETE, OPTIONS 
-
-    xhr.open("GET","./ajaxTest/ajaxData/data.txt" );
-    // Send Request
-
-    xhr.send();
+    xhttp.open("GET", "colorPallet.txt", true);
+    xhttp.send();
 };
 
+alert('1')
 // AJAX is working
