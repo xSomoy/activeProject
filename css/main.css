@@ -350,12 +350,10 @@ section {
 }
 
 #map .gmap iframe {
-    width: 750px;
+    width: 600px;
     height: 600px;
-
     order: 1;
     z-index: 99;
-
 }
 
 .mapDetails {
