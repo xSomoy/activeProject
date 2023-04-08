@@ -326,29 +326,34 @@ section {
 #map {
     margin: 70px 0 50px 70px;
     text-align: center;
-    position: relative;
     height: 900px;
+}
+
+.mapSection {
+    display: flex;
 }
 
 #map h2 {
     font-family: var(--font2);
     font-weight: 700;
     font-size: 40px;
-    margin-bottom: 50px;
-    margin-top: -20px;
 }
-#map iframe {
-    position: absolute;
-    width: 60%;
+#map .gmap iframe {
+    width: 750px;
     height: 600px;
-    left: -10px;
     box-shadow: 0px 0px 5px 5px rgba(33,27,65,0.5);
     -webkit-box-shadow: 0px 0px 5px 5px rgba(33,27,65,0.5);
     -moz-box-shadow: 0px -0px 5px 5px rgba(33,27,65,0.5);
+    order: 1;
+    z-index: 99;
+
 }
 
 .mapDetails {
-    position: absolute;
-    right: 0;
+    order: 2;
+    margin-left: -274px;
+    z-index: -5;
 }
+
+
 /* E- How to get there  */
