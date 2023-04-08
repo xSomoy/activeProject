@@ -239,9 +239,18 @@ section {
 /* S-Meal Spa  */
 .mealSection {
     background-color: #a0a0a0;
-    width: 70%;
-    border-radius: 10px !important;
+    width: 60%;
+    height: 300px;
+    border-radius: 20px !important;
     color: #0b0b0b;
+    padding: 25px;
+    display: block;
+}
+
+.mealSection img {
+    width: 400px;
+    border-radius: 10px;
+    display: inline-block;
 }
 
 
