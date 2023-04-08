@@ -238,21 +238,50 @@ section {
 
 /* S-Meal Spa  */
 .mealSection {
-    background-color: #a0a0a0;
+    background-color: #D9D9D9;
     width: 60%;
     height: 300px;
     border-radius: 20px !important;
     color: #0b0b0b;
     padding: 25px;
-    display: block;
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 50px;
 }
 
 .mealSection img {
     width: 400px;
     border-radius: 10px;
     display: inline-block;
+    font-family: var(--font3);
 }
 
+.mealDescrition {
+    margin-left: 50px;
+}
+
+.mealDescrition h2{
+ 
+    font-family: var(--font2);
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.mealDescrition p{
+    font-size: 20px;
+    font-family: var(--font2);
+    font-weight: 700;
+    text-align: left;
+}
+
+.spa {
+    margin-left: 65%;
+    transform: translateX(-50%);
+}
+
+.spa p {
+    margin-top: -20px;
+    font-size: 20px;
+}
 
 
 /* E-Meal Spa  */
