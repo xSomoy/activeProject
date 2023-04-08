@@ -18,7 +18,7 @@
   - [x] 4.2 What we doing
   - [ ] 4.3 Activites
   - [x] 4.4 Meal Spa
-  - [ ] 4.5 Other Activites
+  - [x] 4.5 Other Activites
   - [ ] 4.6 Map
   - [ ] 4.7 Contact and List
   - [x] 4.8 Wall of Comments
