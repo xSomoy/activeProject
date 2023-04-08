@@ -259,13 +259,14 @@ section {
     margin-left: 50px;
 }
 
-.mealDescrition h2{
- 
+.mealDescrition h2 {
+
     font-family: var(--font2);
     font-weight: 700;
     margin-bottom: 50px;
 }
-.mealDescrition p{
+
+.mealDescrition p {
     font-size: 20px;
     font-family: var(--font2);
     font-weight: 700;
@@ -292,6 +293,7 @@ section {
     background-color: var(--dark-blue);
     color: #fff;
 }
+
 #otherActivites h3 {
     font-family: var(--font3);
     font-size: 50px;
@@ -301,8 +303,9 @@ section {
 #otherActivites p {
     font-family: var(--font3);
     font-size: 25px;
-   
+
 }
+
 #otherActivites p .ohyah {
     display: block;
     font-size: 30px;
@@ -324,26 +327,31 @@ section {
 /* S- How to get there  */
 
 #map {
-    margin: 70px 0 50px 70px;
+    max-width: 100%;
+    /* margin: 70px 0 50px 70px; */
     text-align: center;
     height: 900px;
 }
 
 .mapSection {
     display: flex;
+    box-shadow: 0px 0px 5px 5px rgba(33, 27, 65, 0.5);
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(33, 27, 65, 0.5);
+    -moz-box-shadow: 0px -0px 5px 5px rgba(33, 27, 65, 0.5);
+    overflow: hidden;
 }
 
 #map h2 {
     font-family: var(--font2);
     font-weight: 700;
     font-size: 40px;
+    padding: 50px 0 50px 0px;
 }
+
 #map .gmap iframe {
     width: 750px;
     height: 600px;
-    box-shadow: 0px 0px 5px 5px rgba(33,27,65,0.5);
-    -webkit-box-shadow: 0px 0px 5px 5px rgba(33,27,65,0.5);
-    -moz-box-shadow: 0px -0px 5px 5px rgba(33,27,65,0.5);
+
     order: 1;
     z-index: 99;
 
@@ -351,8 +359,12 @@ section {
 
 .mapDetails {
     order: 2;
-    margin-left: -274px;
+    margin-left: -204px;
     z-index: -5;
+}
+
+.mapDetails .carousel-caption h5 {
+    margin-left: 50%;
 }
 
 
