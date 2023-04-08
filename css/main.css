@@ -288,8 +288,35 @@ section {
 /* S-Other Activites  */
 #otherActivites {
     text-align: center;
-    margin: 70px 0 70px 0;
+    padding: 70px 200px 70px 200px;
+    background-color: var(--dark-blue);
+    color: #fff;
 }
+#otherActivites h3 {
+    font-family: var(--font3);
+    font-size: 50px;
+    text-shadow: 0px 0px 10px var(--pink);
+}
+
+#otherActivites p {
+    font-family: var(--font3);
+    font-size: 25px;
+   
+}
+#otherActivites p .ohyah {
+    display: block;
+    font-size: 30px;
+}
+
+#otherActivites p .sachin {
+    font-size: 30px;
+    font-family: var(--font1);
+    font-weight: 700;
+    font-style: italic;
+    text-shadow: 0px 0px 10px var(--pink);
+    padding-right: 5px;
+}
+
 
 
 /* E-Other Activites  */
