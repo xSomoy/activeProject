@@ -54,12 +54,12 @@ span {
 /* E-Variables  */
 
 /* S-Container */
-#container {
+/* #container {
     padding: 0 50px 0 50px;
-}
+} */
 
 section {
-    padding: 50px 0 50px 0;
+    /* padding: 50px 0 50px 0; */
     border: #c77c31 dotted 1px;
 }
 
@@ -245,8 +245,7 @@ section {
     color: #0b0b0b;
     padding: 25px;
     display: flex;
-    margin-bottom: 50px;
-    margin-left: 50px;
+    margin: 70px 0 50px 70px;
 }
 
 .mealSection img {
