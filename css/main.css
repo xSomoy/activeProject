@@ -54,9 +54,10 @@ span {
 /* E-Variables  */
 
 /* S-Container */
-/* #container {
-    padding: 0 50px 0 50px;
-} */
+#container {
+    max-width: 1200px;
+    margin: auto;
+}
 
 section {
     /* padding: 50px 0 50px 0; */
