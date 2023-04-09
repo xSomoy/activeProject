@@ -381,7 +381,7 @@ section {
 /* E- How to get there  */
 
 
-/* S-Contact and List  */
+/* S-Contact */
 
 #contactList {
     display: flex;
@@ -393,7 +393,7 @@ section {
     padding: 50px;
     width: 50%;
     background-color: var(--blue);
-    color: white;
+    color: var(--white);
     position: relative;
 }
 
@@ -460,4 +460,38 @@ section {
     font-family: var(--font3);
 }
 
-/* E-Contact and List  */
+/* E-Contacts  */
+
+/* S-List */
+.itemList{
+    text-align: left;
+    padding: 50px;
+    width: 50%;
+    background-color: var(--white);
+    color: var(--black);
+    position: relative;
+}
+/* E-List */
+.listItemHeader{
+    font-family: var(--font2);
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.itemList ol {
+    list-style:decimal;
+    margin: 20px 0 0 20px;
+}
+
+.itemList ol li {
+    color: var(--black);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: var(--font3);
+    line-height: 40px;
+    font-style: oblique;
+}
+
+.itemList ol li:nth-child(odd) {
+    color: var(--blue);
+  }
