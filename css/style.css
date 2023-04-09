@@ -571,8 +571,6 @@ section {
 .slider-92911 {
     position: relative;
 }
-
-/* Carousel 4*/
 .testimony-29101 .image {
     width: 40%;
     background-size: cover;
@@ -588,7 +586,7 @@ section {
 .testimony-29101 .text {
     width: 60%;
     padding: 7rem 4rem;
-    background: #007bff;
+    background: var(--dark-blue);
 }
 
 .testimony-29101 .text blockquote {
@@ -598,7 +596,7 @@ section {
 }
 
 .testimony-29101 .text blockquote p {
-    color: #fff;
+    color: var(--white);
     line-height: 1.8;
 }
 
@@ -690,7 +688,7 @@ section {
 
 .slide-one-item .owl-dots .owl-dot.active>span {
     width: 15px;
-    background: #007bff;
+    background: #0c3a6c;
 }
 
 .thumbnail {
