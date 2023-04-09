@@ -20,8 +20,9 @@
   - [x] 4.4 Meal Spa
   - [x] 4.5 Other Activites
   - [x] 4.6 Map
-  - [ ] 4.7 Contact and List
-  - [x] 4.8 Wall of Comments
+  - [x] 4.7 Contact
+  - [ ] 4.8List
+  - [x] 4.9 Wall of Comments
 - [x] 5. CountDown Widget
   - [x] 5.1 Development
   - [x] 5.2 Structure
