@@ -568,6 +568,7 @@ section {
 
 /* S-Comments  */
 
+
 .slider-92911 {
     position: relative;
 }
@@ -587,6 +588,7 @@ section {
     width: 60%;
     padding: 7rem 4rem;
     background: var(--dark-blue);
+    font-family: var(--font3);
 }
 
 .testimony-29101 .text blockquote {
@@ -601,11 +603,12 @@ section {
 }
 
 .testimony-29101 .text blockquote .author {
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: .1rem;
     position: absolute;
     bottom: 0;
-    color: rgba(255, 255, 255, 0.7);
+    color: var(--light-pink);
+    font-family: var(--font1);
 }
 
 @media (max-width: 991.98px) {
@@ -707,7 +710,6 @@ section {
 #Comments > div > div.my-5.text-center > ul > li.active {
     border: var(--iconColor) 3px solid;
     border-radius: 50%;
-    
 }
 
 .thumbnail li {
