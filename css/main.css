@@ -67,6 +67,7 @@ body {
     background-color: #D9D9D9;
 
 }
+
 /* E- Body  */
 
 
@@ -376,3 +377,18 @@ section {
 
 
 /* E- How to get there  */
+
+
+/* S-Contact and List  */
+
+#contactList {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.contacts {
+    background-color: var(--blue);
+    color: white;
+}
+
+/* E-Contact and List  */
