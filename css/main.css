@@ -46,6 +46,8 @@ span {
     --dark-blue: #211b41;
     --gray: #6c6c6c;
     --black: #0b0b0b;
+    --white :#efefef;
+    --iconColor: #00eeff;
     --font1: 'Lato', sans-serif;
     --font2: 'Montserrat', sans-serif;
     --font3: 'Roboto', sans-serif;
@@ -104,7 +106,7 @@ section {
     width: calc(100% - 150px);
     height: 600px;
     border-top-right-radius: 30%;
-    background-color: white;
+    background-color: var(--white);
 
 
 }
@@ -392,6 +394,36 @@ section {
     width: 50%;
     background-color: var(--blue);
     color: white;
+    position: relative;
+}
+
+.contacts::after {
+    content: "";
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 95px;
+    right: 95px;
+    background-image: url(../images/contactsEllipse.png);
+    z-index: 99;
+    aspect-ratio: 1/1;
+    transform: scale(2);
+    opacity: .75;
+}
+
+.contacts::before {
+    content: "";
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    background-image: url(../images/contactsRect.png);
+    z-index: 98;
+    aspect-ratio: 1/1;
+    transform: scale(3);
 }
 
 .contactsLinks {
@@ -403,7 +435,7 @@ section {
 }
 
 .contactsSub {
-    color: #ffffff90;
+    color: var(--iconColor);
     font-family: var(--font3);
     font-size: 15px;
 }
@@ -413,7 +445,7 @@ section {
 }
 
 .contacts ul li i {
-   color: var(--light-pink);
+    color: var(--iconColor);
     padding: 10px;
     font-size: 25px;
 }
@@ -423,8 +455,9 @@ section {
     padding: 5px;
 }
 .contacts ul li a {
-    color: #fff;
+    color: var(--white);   
     line-height: 25px;
+    font-family: var(--font3);
 }
 
 /* E-Contact and List  */
