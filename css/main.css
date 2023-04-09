@@ -57,13 +57,14 @@ span {
 #container {
     max-width: 1200px;
     margin: auto;
+    background-color: #fbfbfb;
 }
 
 /* E-Container */
 
 /* S- Body  */
 body {
-    background-color: #fbfbfb
+    background-color: #D9D9D9;
 
 }
 /* E- Body  */
@@ -365,7 +366,7 @@ section {
 
 .mapDetails {
     order: 2;
-    margin-left: -204px;
+    margin-left: -203px;
     z-index: -5;
 }
 
