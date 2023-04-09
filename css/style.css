@@ -704,6 +704,12 @@ section {
     z-index: 99;
 }
 
+#Comments > div > div.my-5.text-center > ul > li.active {
+    border: var(--iconColor) 3px solid;
+    border-radius: 50%;
+    
+}
+
 .thumbnail li {
     display: inline-block;
 }
