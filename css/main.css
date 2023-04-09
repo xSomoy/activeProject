@@ -471,7 +471,35 @@ section {
     color: var(--black);
     position: relative;
 }
-/* E-List */
+
+.itemList::after {
+    content: "";
+    background-size: cover;
+    width: 100px;
+    height: 60px;
+    position: absolute;
+    bottom: 150px;
+    right: 120px;
+    background-image: url(../images/itemPattern.png);
+    z-index: 80;
+    aspect-ratio: 1/.6;
+    transform: scale(1.3);
+}
+
+.itemList::before {
+    content: "";
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    background-image: url(../images/itemShape.png);
+    z-index: 90;
+    aspect-ratio: 1/1;
+    transform: scale(1.5);
+}
+
 .listItemHeader{
     font-family: var(--font2);
     font-size: 30px;
@@ -490,8 +518,11 @@ section {
     font-family: var(--font3);
     line-height: 40px;
     font-style: oblique;
+    z-index: 99;
 }
 
 .itemList ol li:nth-child(odd) {
     color: var(--blue);
   }
+
+  /* E-List */
