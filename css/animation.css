@@ -1,0 +1,14 @@
+h2 {
+    overflow: hidden; /* Hide overflowing characters */
+    animation: typing 3s steps(20, end); /* Use the "typing" animation with a duration of 3 seconds and 20 steps */
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0; /* Start with 0 width */
+    }
+    to {
+      width: 100%; /* End with full width */
+    }
+  }
+  

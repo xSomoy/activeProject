@@ -342,7 +342,7 @@ section {
     color: #fff;
 }
 
-#otherActivites h3 {
+#otherActivites h2 {
     font-family: var(--font3);
     font-size: 50px;
     text-shadow: 0px 0px 10px var(--pink);
