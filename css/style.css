@@ -393,6 +393,7 @@ section {
     font-weight: 700;
     font-size: 40px;
     padding: 50px 0 50px 0px;
+    color: var(--black);
 }
 
 #map .mapSection .gmap iframe {
@@ -567,11 +568,24 @@ section {
 /* E-List */
 
 /* S-Comments  */
+#Comments {
+    max-width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
 
+#Comments h2 {
+    font-family: var(--font2);
+    font-weight: 700;
+    font-size: 40px;
+    padding: 50px 0 50px 0px;
+    color: var(--black);
+}
 
 .slider-92911 {
     position: relative;
 }
+
 .testimony-29101 .image {
     width: 40%;
     background-size: cover;
@@ -707,7 +721,7 @@ section {
     z-index: 99;
 }
 
-#Comments > div > div.my-5.text-center > ul > li.active {
+#Comments>div>div.my-5.text-center>ul>li.active {
     border: var(--iconColor) 3px solid;
     border-radius: 50%;
 }
@@ -732,6 +746,7 @@ section {
     transition: .3s all ease;
     -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    transition: all 1s linear;
 }
 
 .thumbnail li.active a img {
