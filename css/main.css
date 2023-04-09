@@ -59,13 +59,20 @@ span {
     margin: auto;
 }
 
+/* E-Container */
+
+/* S- Body  */
+body {
+    background-color: #fbfbfb
+
+}
+/* E- Body  */
+
+
 section {
     /* padding: 50px 0 50px 0; */
     border: #c77c31 dotted 1px;
 }
-
-/* E-Container */
-
 
 /* S-Banner Part  */
 
