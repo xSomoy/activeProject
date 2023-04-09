@@ -387,8 +387,44 @@ section {
 }
 
 .contacts {
+    text-align: left;
+    padding: 50px;
+    width: 50%;
     background-color: var(--blue);
     color: white;
+}
+
+.contactsLinks {
+    color: #fff;
+    font-family: var(--font1);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.contactsSub {
+    color: #ffffff90;
+    font-family: var(--font3);
+    font-size: 15px;
+}
+
+.contacts ul {
+    margin: 20px 0 20px 0;
+}
+
+.contacts ul li i {
+   color: var(--light-pink);
+    padding: 10px;
+    font-size: 25px;
+}
+
+.contacts ul li {
+    text-align: left;
+    padding: 5px;
+}
+.contacts ul li a {
+    color: #fff;
+    line-height: 25px;
 }
 
 /* E-Contact and List  */
