@@ -27,7 +27,7 @@
   - [x] 5.1 Development
   - [x] 5.2 Structure
   - [x] 5.3 Design
-- [ ] 6. Web Design **Revision**
+- [x] 6. Web Design **Revision**
 - [ ] 7. Responsive
 - [ ] 8. Responsive **Revision**
 - [ ] 9. Final **Revision**
