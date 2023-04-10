@@ -60,6 +60,7 @@ span {
     max-width: 1200px;
     margin: auto;
     background-color: #fbfbfb;
+    overflow: hidden;
 }
 
 /* E-Container */
@@ -758,3 +759,19 @@ section {
 }
 
 /* E-Comments    */
+
+/* S- Activities  */
+#Activites{
+    text-align: center;
+}
+#Activites h2 {
+    font-family: var(--font2);
+    font-weight: 700;
+    font-size: 40px;
+    padding: 50px 0 50px 0px;
+    color: var(--black);
+}
+
+
+
+/* E- Activities  */
