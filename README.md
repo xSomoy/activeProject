@@ -4,10 +4,10 @@
  > ## Stages:
 - [x] 1. UI/UX Desing 
 - [x] 2. Design **Revision**
-- [ ] 3. Initial Sructure
+- [x] 3. Initial Sructure
   - [x] 3.1 Banner 
   - [x] 3.2 What we doing
-  - [ ] 3.3 Activites
+  - [x] 3.3 Activites
   - [x] 3.4 Meal Spa
   - [x] 3.5 Other Activites
   - [x] 3.6 Map
@@ -16,7 +16,7 @@
 - [ ] 4. Web Design
   - [x] 4.1 Banner 
   - [x] 4.2 What we doing
-  - [ ] 4.3 Activites
+  - [ ] 4.3 Activites 
   - [x] 4.4 Meal Spa
   - [x] 4.5 Other Activites
   - [x] 4.6 Map

@@ -778,9 +778,10 @@ section {
 }
 
 #Activites .subText {
-    color: var(--white);
+    color: var(--iconColor);
     font-size: 20px;
     font-family: var(--font2);
+    font-weight: 600;
 }
 
 .activitiesModals {
@@ -812,6 +813,33 @@ section {
     padding: 20px;
     border-radius: 30%;
     display: inline;
+}
+
+.motrActivities {
+    /* max-width: 90%; */
+    padding: 30px 30px 40px 30px;
+    margin: auto;
+}
+
+.motrActivities p {
+    font-family: var(--font2);
+    font-size: 15px;
+    color: var(--white);
+    font-weight: 600;
+}
+
+.motrActivities p span {
+    color: var(--light-pink);
+    font-style: italic;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.motrActivities p a {
+    color: var(--purple);
+    font-style: italic;
+    font-weight: 800;
+    font-size: 20px;
 }
 
 /* E- Activities  */
