@@ -1,35 +1,56 @@
-/* Normal desktop :1700px. */
-@media (min-width: 1500px) and (max-width: 1700px) {
-    
+
+    /* Laptop 1024px */
+    @media (min-width: 1024px) {
+
+        .bannderBody {
+            border-top-right-radius: 16% !important;
+        }
+        #banner img {
+            top: 0 !important;
+            transform: scale(.8) !important
+        }
+        .mapDetails {
+            margin-right: -384px !important;
+            position: relative;
+        }
+        .mapDetails .carousel-caption h5 {
+            display: none;
+        }
     }
-    /* Normal desktop :1200px. */
-     @media (min-width: 1200px) and (max-width: 1500px) {
-    
-    }
     
     
-    /* Normal desktop :992px. */
-    @media (min-width: 992px) and (max-width: 1200px) {
-   
-    
+    /* Tablet 768px. */
+    @media (min-width: 768px) and (max-width: 1023px) {
+        .bannderBody {
+            border-top-right-radius: 0% !important;
+        }
+        #banner img {
+            display: none !important;
+        }
+        .bannerText {
+            text-align: center;
+            width: 650px !important;
+            -webkit-clip-path: none !important;
+            clip-path: none !important;
+            height: 600px;
+            padding: 100px 30px 0px 50px !important;
+        }
+
+        .bannderBody {
+            width: calc(100% - 120px) !important;
+        }
+        .bannerText .description {
+            width: 90% !important;
+            font-family: var(--font1);
+            line-height: 25px;
+            font-size: 15px;
+            font-weight: 600;
+        }
     }
     
     
     /* Tablet desktop :768px. */
     @media (min-width: 768px) and (max-width: 991px) {
-    
-    }
-    
-    
-    /* small mobile :320px. */
-    @media (max-width: 767px) {
-    
-    
-    }
-    
-    /* Large Mobile :480px. */
-    @media only screen and (min-width: 575px) and (max-width: 767px) {
-    
     
     }
     
