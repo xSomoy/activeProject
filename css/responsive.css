@@ -27,6 +27,9 @@
         #banner img {
              z-index: 99 !important;
              top: 0 !important;
+             left: 50%;
+             transform: translateX(-50%) scale(.7);
+             border-radius: 5px;
         }
         .bannerText {
             text-align: center;
@@ -53,6 +56,65 @@
             width: 600px !important;
             top: 500px !important;
             transform: translateX(-52%) !important;
+        }
+
+        #whatDoing {
+            transform: scale(.8);
+        }
+
+        .mealSection {
+            background-color: #D9D9D9;
+            width: 60%;
+            height: 250px;
+            border-radius: 20px !important;
+            color: #0b0b0b;
+            padding: 20px;
+            display: flex;
+            margin: 60px 0 40px 60px;
+        }
+        .mealSection img {
+            width: 300px !important;
+        }
+
+        .mealDescrition p {
+            font-size: 18px !important;
+            margin-top: -20px;
+        }
+
+        #otherActivites {
+            padding: 50px 100px 50px 100px !important;
+        }
+
+        #map .mapSection .gmap iframe {
+            width: 400px !important;
+            height: 430px !important;
+        }
+        .mapDetails .carousel-caption h5 {
+            display: none;
+        }
+        #map {
+            height: 700px !important;
+        }
+
+        .contacts::before {
+            transform: scale(2) !important;
+            bottom: 25px !important;
+            right: 25px !important;
+
+        }
+        .contacts::after {
+            transform: scale(2) !important;
+            bottom: 50px !important;
+            right: 50px !important;
+        }
+        .itemList::after {
+            right: 10px !important;
+            transform: scale(1) !important;
+        }
+        .slider-92911 {
+            width: 100% !important;
+            aspect-ratio: 2/1 !important;
+            transform:  scale(.5) !important;
         }
     }
     
