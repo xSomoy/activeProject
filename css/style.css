@@ -842,4 +842,21 @@ section {
     font-size: 20px;
 }
 
+.modal-body {
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+.modal-body img {
+    width: 100%;
+    object-fit: cover;
+}
+.modal-body p {
+    padding: 20px;
+    text-align: center;
+    color: var(--dark-blue);
+    font-family: var(--font3);
+    font-size: 18px;
+    font-weight: 600;
+}
 /* E- Activities  */
