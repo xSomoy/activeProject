@@ -111,10 +111,15 @@
             right: 10px !important;
             transform: scale(1) !important;
         }
-        .slider-92911 {
-            width: 100% !important;
-            aspect-ratio: 2/1 !important;
-            transform:  scale(.5) !important;
+        .testimony-29101 .text {
+            width: 60%;
+            padding: 20px 20px 20px 20px !important;
+            background: var(--dark-blue);
+            font-family: var(--font3);
+        }
+
+        .testimony-29101 .text blockquote p {
+            line-height: 30px !important;
         }
     }
     
