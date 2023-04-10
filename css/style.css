@@ -761,34 +761,51 @@ section {
 /* E-Comments    */
 
 /* S- Activities  */
-#Activites{
+#Activites {
     text-align: center;
+    background-image: url(../images/activities.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 #Activites h2 {
     font-family: var(--font2);
     font-weight: 700;
     font-size: 40px;
     padding: 50px 0 0 0px;
-    color: var(--black);
+    color: var(--white);
+}
+
+#Activites .subText {
+    color: var(--white);
+    font-size: 20px;
+    font-family: var(--font2);
 }
 
 .activitiesModals {
     display: flex;
     flex-wrap: wrap;
-    /* max-width: 80%; */
     justify-content: center;
 }
+
 .activitiesModals button {
     border: 1px solid var(--dark-blue);
     margin: 20px;
     border-radius: 10%;
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.75);
 }
+
+
 .activitiesModals button p {
     font-family: var(--font1);
     padding: 0 0 10px 0;
     font-weight: 600;
     color: var(--dark-blue)
 }
+
 .activitiesModals button img {
     aspect-ratio: 1/1;
     width: 200px;
