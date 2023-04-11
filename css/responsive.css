@@ -1,131 +1,385 @@
+/* Laptop 1024px */
+@media (min-width: 1024px) {
 
-    /* Laptop 1024px */
-    @media (min-width: 1024px) {
-
-        .bannderBody {
-            border-top-right-radius: 16% !important;
-        }
-        #banner img {
-            top: 0 !important;
-            transform: scale(.8) !important
-        }
-        .mapDetails {
-            margin-right: -384px !important;
-            position: relative;
-        }
-        .mapDetails .carousel-caption h5 {
-            display: none;
-        }
+    .bannderBody {
+        border-top-right-radius: 16% !important;
     }
-    
-    
-    /* Tablet 768px. */
-    @media (min-width: 768px) and (max-width: 1023px) {
-        .bannderBody {
-            border-top-right-radius: 0% !important;
-        }
-        #banner img {
-             z-index: 99 !important;
-             top: 0 !important;
-             left: 50%;
-             transform: translateX(-50%) scale(.7);
-             border-radius: 5px;
-        }
-        .bannerText {
-            text-align: center;
-            width: 650px !important;
-            -webkit-clip-path: none !important;
-            clip-path: none !important;
-            height: 600px !important;
-            padding: 100px 30px 0px 50px !important;
-        }
 
-        .bannderBody {
-            width: calc(100% - 120px) !important;
-        }
-        .bannerText .description {
-            width: 90% !important;
-            font-family: var(--font1);
-            line-height: 25px;
-            font-size: 15px;
-            font-weight: 600;
-        }
-
-        #CountDown {
-
-            width: 600px !important;
-            top: 500px !important;
-            transform: translateX(-52%) !important;
-        }
-
-        #whatDoing {
-            transform: scale(.8);
-        }
-
-        .mealSection {
-            background-color: #D9D9D9;
-            width: 60%;
-            height: 250px;
-            border-radius: 20px !important;
-            color: #0b0b0b;
-            padding: 20px;
-            display: flex;
-            margin: 60px 0 40px 60px;
-        }
-        .mealSection img {
-            width: 300px !important;
-        }
-
-        .mealDescrition p {
-            font-size: 18px !important;
-            margin-top: -20px;
-        }
-
-        #otherActivites {
-            padding: 50px 100px 50px 100px !important;
-        }
-
-        #map .mapSection .gmap iframe {
-            width: 400px !important;
-            height: 430px !important;
-        }
-        .mapDetails .carousel-caption h5 {
-            display: none;
-        }
-        #map {
-            height: 700px !important;
-        }
-
-        .contacts::before {
-            transform: scale(2) !important;
-            bottom: 25px !important;
-            right: 25px !important;
-
-        }
-        .contacts::after {
-            transform: scale(2) !important;
-            bottom: 50px !important;
-            right: 50px !important;
-        }
-        .itemList::after {
-            right: 10px !important;
-            transform: scale(1) !important;
-        }
-        .testimony-29101 .text {
-            width: 60%;
-            padding: 20px 20px 20px 20px !important;
-            background: var(--dark-blue);
-            font-family: var(--font3);
-        }
-
-        .testimony-29101 .text blockquote p {
-            line-height: 30px !important;
-        }
+    #banner img {
+        top: 0 !important;
+        transform: scale(.8) !important
     }
-    
-    
-    /* Tablet desktop :768px. */
-    @media (min-width: 768px) and (max-width: 991px) {
-    
+
+    .mapDetails {
+        margin-right: -384px !important;
+        position: relative;
     }
-    
+
+    .mapDetails .carousel-caption h5 {
+        display: none;
+    }
+}
+
+
+/* Tablet 768px. */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .bannderBody {
+        border-top-right-radius: 0% !important;
+    }
+
+    #banner img {
+        z-index: 99 !important;
+        top: 0 !important;
+        left: 50%;
+        transform: translateX(-50%) scale(.7);
+        border-radius: 5px;
+    }
+
+    .bannerText {
+        text-align: center;
+        width: 650px !important;
+        -webkit-clip-path: none !important;
+        clip-path: none !important;
+        height: 600px !important;
+        padding: 100px 30px 0px 50px !important;
+    }
+
+    .bannderBody {
+        width: calc(100% - 120px) !important;
+    }
+
+    .bannerText .description {
+        width: 90% !important;
+        font-family: var(--font1);
+        line-height: 25px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    #CountDown {
+
+        width: 600px !important;
+        top: 500px !important;
+        transform: translateX(-52%) !important;
+    }
+
+    #whatDoing {
+        transform: scale(.8);
+    }
+
+    .mealSection {
+        background-color: #D9D9D9;
+        width: 60%;
+        height: 250px;
+        border-radius: 20px !important;
+        color: #0b0b0b;
+        padding: 20px;
+        display: flex;
+        margin: 60px 0 40px 60px;
+    }
+
+    .mealSection img {
+        width: 300px !important;
+    }
+
+    .mealDescrition p {
+        font-size: 18px !important;
+        margin-top: -20px;
+    }
+
+    #otherActivites {
+        padding: 50px 100px 50px 100px !important;
+    }
+
+    #map .mapSection .gmap iframe {
+        width: 400px !important;
+        height: 430px !important;
+    }
+
+    .mapDetails .carousel-caption h5 {
+        display: none;
+    }
+
+    #map {
+        height: 700px !important;
+    }
+
+    .contacts::before {
+        transform: scale(2) !important;
+        bottom: 25px !important;
+        right: 25px !important;
+
+    }
+
+    .contacts::after {
+        transform: scale(2) !important;
+        bottom: 50px !important;
+        right: 50px !important;
+    }
+
+    .itemList::after {
+        right: 10px !important;
+        transform: scale(1) !important;
+    }
+
+    .testimony-29101 .text {
+        width: 60%;
+        padding: 20px 20px 20px 20px !important;
+        background: var(--dark-blue);
+        font-family: var(--font3);
+    }
+
+    .testimony-29101 .text blockquote p {
+        line-height: 30px !important;
+    }
+}
+
+
+/* Mobile Responsive */
+@media (min-width: 320px) and (max-width: 767px) {
+    #banner {
+        background: linear-gradient(45deg, rgba(163, 101, 223, 1) 33%, rgba(129, 0, 255, 1) 100%);
+        width: 100%;
+        height: 400px !important;
+        position: relative;
+        margin-bottom: 50px !important;
+    }
+    #banner img {
+        display: none !important;
+    }
+
+    .bannerText {
+        text-align: center;
+        width: 100% !important;
+        -webkit-clip-path: none !important;
+        clip-path: none !important;
+        height: 400px !important;
+        padding: 10px 3px 0px 5px !important;
+    }
+    .bannerText h1 {
+        font-size: 20px !important;
+        font-weight: 700;
+        margin: 10px 0 20px 0px;
+    }
+    .bannderBody {
+        background-image: url(../images/banner2.jpg);
+        background-position: center;
+        background-size: cover;
+        background-clip: content-box;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0px !important;
+        left: 0px !important;
+        width: 100% !important;
+        height: 100% !important;
+        border-top-right-radius: 0% !important;
+    }
+
+    .bannerText .description {
+        width: 90% !important;
+        font-family: var(--font1);
+        line-height: 25px;
+        font-size: 13px;
+        font-weight: 600;
+
+    }
+
+    #CountDown {
+
+        width: 400px !important;
+        top: 320px !important;
+        transform: translateX(-52%) scale(.6) !important ;
+    }
+
+    #whatDoing {
+        transform: scale(.4);
+        margin-top: -150px !important;
+        margin-bottom: -220 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .whatDoingText {
+     margin-left: -100px !important;
+    }
+
+
+    .activitiesModals button {
+        padding: 10px !important;
+    }
+
+    .activitiesModals button img {
+        display: none !important;
+    }
+
+    .mealSection {
+        background-color: #D9D9D9;
+        width: 60%;
+        height: 50px;
+        border-radius: 0px !important;
+        color: #0b0b0b;
+        padding: 20px;
+        display: flex;
+        /* margin: 10px 0 0px 60px; */
+    }
+
+    .mealSection img {
+        width: 130px !important;
+    }
+    .mealDescrition h2 {
+        font-family: var(--font2);
+        font-weight: 700;
+        margin-bottom: 30px !important;
+    }
+
+    .mealDescrition p {
+        font-size: 10px !important;
+        margin-top: -20px;
+    }
+
+    .mealSection {
+        background-color: #D9D9D9;
+        width: 100% !important;
+        height: 150px !important;
+        border-radius: 0px !important;
+        color: #0b0b0b;
+        padding: 20px;
+        display: flex;
+        margin: 0px 0 0px 00px !important;
+    }
+
+    .spa {
+        margin-left: 0% !important;
+        transform: translateX(0%) !important;
+    }
+
+    #otherActivites {
+        padding: 10px 20px 10px 20px !important;
+    }
+
+    #otherActivites h2 {
+        font-family: var(--font3);
+        font-size: 30px !important;
+        text-shadow: 0px 0px 10px var(--pink);
+        margin-bottom: 10px !important;
+    }
+
+    #otherActivites p {
+        font-family: var(--font3);
+        font-size: 20px !important;
+    }
+
+    #otherActivites p .ohyah {
+        display: block;
+        font-size: 15px !important;
+    }
+
+    #otherActivites p .sachin {
+        font-size: 20px !important;
+        font-family: var(--font1);
+        font-weight: 700;
+        font-style: italic;
+        text-shadow: 0px 0px 10px var(--pink);
+        padding-right: 5px;
+    }
+
+#map h2 {
+    font-size: 25px  !important;
+}
+
+
+    #map .mapSection .gmap iframe {
+        width: 400px !important;
+        height: 430px !important;
+    }
+
+    .mapDetails .carousel-caption h5 {
+        display: none;
+    }
+
+    #map {
+        height: 700px !important;
+    }
+
+
+    #contactList {
+        display: block !important;
+        flex-wrap: nowrap;
+        margin-top: -50px !important;
+    }
+
+    .contacts {
+        text-align: left;
+        padding: 10px !important;
+        width: 100% !important;
+    }
+
+    .contacts::before {
+        transform: scale(1.8) !important;
+        bottom: 20px !important;
+        right: 20px !important;
+
+    }
+
+    .contacts::after {
+        transform: scale(1.8) !important;
+        bottom: 40px !important;
+        right: 40px !important;
+    }
+
+    .listItemHeader {
+        font-size: 25px !important;
+    }
+
+    .itemList ol li {
+        color: var(--black);
+        font-size: 15px !important;
+        font-weight: 700;
+        font-family: var(--font3);
+        line-height: 30px !important;
+        font-style: oblique;
+        z-index: 99;
+    }
+
+    .itemList {
+        text-align: left;
+        padding: 20px !important;
+        width: 100% !important;
+        background-color: var(--white);
+        color: var(--black);
+        position: relative;
+    }
+
+    #Comments h2 {
+        font-family: var(--font2);
+        font-weight: 700;
+        font-size: 25px;
+        padding: 50px 0 50px 0px;
+        color: var(--black);
+    }
+
+
+    .itemList::after {
+       display: none !important;
+    }
+
+    .testimony-29101 .text {
+        width: 60%;
+        padding: 20px 20px 20px 20px !important;
+        background: var(--dark-blue);
+        font-family: var(--font3);
+    }
+
+    .testimony-29101 .text blockquote p {
+        line-height: 30px !important;
+    }
+
+    .thumbnail{
+   display: none !important;
+       
+    }
+
+    #Comments h2 {
+        font-size: 25px !important;
+        padding: 20px 0 20px 0px !important;
+    }
+}
