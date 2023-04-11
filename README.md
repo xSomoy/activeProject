@@ -1,4 +1,5 @@
 # This Project is for Mr. Sanchin Sancheti
+# [Download](https://github.com/xSomoy/activeProject/raw/master/main.zip)
  ## [Project Link](https://www.freelancer.com/contest/build-me-a-home-page-for-an-event-page-2221147) @ Freelancer.com
 ---
  > ## Stages:
@@ -30,7 +31,10 @@
 - [x] 6. Web Design **Revision**
 - [x] 7. Responsive
 - [x] 8. Responsive **Revision**
-- [ ] 9. Final **Revision**
+- [x] 9. Final **Revision**
+
+
+# [Download](https://github.com/xSomoy/activeProject/raw/master/main.zip)
 
 *** 
 <!-- visitor counter -->
