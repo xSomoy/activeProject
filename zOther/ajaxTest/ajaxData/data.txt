@@ -1,2 +1,0 @@
-<h1> Ajax is Working </h1>
-<div> TEST TEST TEST </div>
