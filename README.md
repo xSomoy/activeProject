@@ -28,8 +28,8 @@
   - [x] 5.2 Structure
   - [x] 5.3 Design
 - [x] 6. Web Design **Revision**
-- [ ] 7. Responsive
-- [ ] 8. Responsive **Revision**
+- [x] 7. Responsive
+- [x] 8. Responsive **Revision**
 - [ ] 9. Final **Revision**
 
 *** 
