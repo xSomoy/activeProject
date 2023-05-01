@@ -1,9 +1,8 @@
 # Different Authentication and Authorization Methods - Python 
-## [Project Link](https://www.freelancer.com/contest/2242894)
-
+# [Contest Link](https://www.freelancer.com/contest/2242894)
 # [![Live Demo](./rSrc/live-demo.png)](https://www.heroku.com/home)
 
-**<h2> Description </h2>**
+***Description***
 
 > I need help showing how to use various authentication and authorization methods for secure software systems. These should be implemented using python to show the various methods. 
 You could implement them using 1 application and show the different methods, or use different python files to show the different methods running separately. It would be nice to have a database with a user interface to show everything.
@@ -38,5 +37,12 @@ You may also suggest a different approach to showcase different methods instead 
   - [ ]  Role-Based Access Control (RBAC)
   - [ ]  Attribute-based Access Control (ABAC)
 
+***
+ ## Contact Me: 
+
+ ### [Freelancer.com](https://www.freelancer.com/u/xSomoy)
+ ### [Github](https://github.com/xSomoy)
+
+***
 
 
