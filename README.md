@@ -14,9 +14,30 @@ You may also suggest a different approach to showcase different methods instead 
 
 > **Note that you will need to submit a zip file with all python codes and html/css/js as necessary.**
 
+---
 
-<div>
-- First item
-- Second item
-- Third item
-</div>
+**Suggested**
+
+- Flask app
+- Different pages showing how different authentication schemes work
+- Live Demo
+
+## **Features To Add**
+
+- [ ] Home / Registration Page
+- [ ] Authentication
+  - [ ] Auth-0 : Passwordsless
+  - [ ] Auth-1 : Passwords
+  - [ ] Auth-1 : OTP
+  - [ ] Auth-1 : Physical Tokens/JWT
+  - [ ] Auth-1 : SSO
+  - [ ] Auth-1 : Biometric/face recognition
+  - [ ] Auth-1 : Multi-factor, Passwordless
+- [ ] Acces Control
+  - [ ] Discretionary Access Control (DAC)
+  - [ ] Mandatory Access Control (MAC)
+  - [ ] Role-Based Access Control (RBAC)
+  - [ ] Attribute-based Access Control (ABAC)
+
+
+
