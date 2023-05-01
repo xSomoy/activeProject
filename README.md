@@ -1,7 +1,7 @@
 # Different Authentication and Authorization Methods - Python 
 ## [Project Link](https://www.freelancer.com/contest/2242894)
 
-# [Live Demo Link]()
+# [![Live Demo](./rSrc/live-demo.png)](https://codecademy.com)
 
 **<h2> Description </h2>**
 
