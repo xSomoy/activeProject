@@ -25,7 +25,7 @@ You may also suggest a different approach to showcase different methods instead 
 
 - [ ]  Home / Registration Page
 - [ ]  Authentication
-  - [ ]  Auth-0 : Passwordsless
+  - [ ]     Auth-0 : Passwordsless
   - [ ]  Auth-1 : Passwords
   - [ ]  Auth-1 : OTP
   - [ ]  Auth-1 : Physical Tokens/JWT
