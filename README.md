@@ -26,11 +26,11 @@ You may also suggest a different approach to showcase different methods instead 
 - [ ] Authentication
   - [ ] Auth-0 : Passwordsless
   - [ ] Auth-1 : Passwords
-  - [ ] Auth-1 : OTP
-  - [ ] Auth-1 : Physical Tokens/JWT
-  - [ ] Auth-1 : SSO
-  - [ ] Auth-1 : Biometric/face recognition
-  - [ ] Auth-1 : Multi-factor, Passwordless
+  - [ ] Auth-2 : OTP
+  - [ ] Auth-3 : Physical Tokens/JWT
+  - [ ] Auth-4 : SSO
+  - [ ] Auth-5 : Biometric/face recognition
+  - [ ] Auth-6 : Multi-factor, Passwordless
 - [ ] Acces Control
   - [ ] Discretionary Access Control (DAC)
   - [ ] Mandatory Access Control (MAC)
