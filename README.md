@@ -23,20 +23,20 @@ You may also suggest a different approach to showcase different methods instead 
 
 ## **Features To Add**
 
-- [ ] Home / Registration Page
-- [ ] Authentication
-  - [ ] Auth-0 : Passwordsless
-  - [ ] Auth-1 : Passwords
-  - [ ] Auth-1 : OTP
-  - [ ] Auth-1 : Physical Tokens/JWT
-  - [ ] Auth-1 : SSO
-  - [ ] Auth-1 : Biometric/face recognition
-  - [ ] Auth-1 : Multi-factor, Passwordless
-- [ ] Acces Control
-  - [ ] Discretionary Access Control (DAC)
-  - [ ] Mandatory Access Control (MAC)
-  - [ ] Role-Based Access Control (RBAC)
-  - [ ] Attribute-based Access Control (ABAC)
+- [ ]  Home / Registration Page
+- [ ]  Authentication
+  - [ ]  Auth-0 : Passwordsless
+  - [ ]  Auth-1 : Passwords
+  - [ ]  Auth-1 : OTP
+  - [ ]  Auth-1 : Physical Tokens/JWT
+  - [ ]  Auth-1 : SSO
+  - [ ]  Auth-1 : Biometric/face recognition
+  - [ ]  Auth-1 : Multi-factor, Passwordless
+- [ ]  Acces Control
+  - [ ]  Discretionary Access Control (DAC)
+  - [ ]  Mandatory Access Control (MAC)
+  - [ ]  Role-Based Access Control (RBAC)
+  - [ ]  Attribute-based Access Control (ABAC)
 
 
 
