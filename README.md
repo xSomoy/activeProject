@@ -22,11 +22,11 @@ You may also suggest a different approach to showcase different methods instead 
 
 ## **Features To Add**
 
-- [ ]  Home / Registration Page
-- [ ]  Authentication
-  - [ ]     Auth-0 : Passwordsless
-  - [ ]  Auth-1 : Passwords
-  - [ ]  Auth-1 : OTP
+- [ ] Home / Registration Page
+- [ ] Authentication
+  - [ ] Auth-0 : Passwordsless
+  - [ ] Auth-1 : Passwords
+  - [ ] Auth-1 : OTP
   - [ ]  Auth-1 : Physical Tokens/JWT
   - [ ]  Auth-1 : SSO
   - [ ]  Auth-1 : Biometric/face recognition
@@ -38,10 +38,10 @@ You may also suggest a different approach to showcase different methods instead 
   - [ ]  Attribute-based Access Control (ABAC)
 
 ***
- **Contact Me:**
+# **Contact Me:**
 
- ### [Freelancer.com](https://www.freelancer.com/u/xSomoy)
- ### [Github](https://github.com/xSomoy)
+### **[Freelancer.com](https://www.freelancer.com/u/xSomoy)**
+### **[Github](https://github.com/xSomoy)**
 
 ***
 
