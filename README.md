@@ -38,7 +38,7 @@ You may also suggest a different approach to showcase different methods instead 
   - [ ]  Attribute-based Access Control (ABAC)
 
 ***
- ## Contact Me: 
+ **Contact Me:**
 
  ### [Freelancer.com](https://www.freelancer.com/u/xSomoy)
  ### [Github](https://github.com/xSomoy)
